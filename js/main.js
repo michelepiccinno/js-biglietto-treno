@@ -1,7 +1,7 @@
 let km = prompt('Quanti km devi percorrere?');
 let age = prompt('Quanti anni hai?');
 let fullPrice = (km * 0.21).toFixed(2);
-netPrice = 0;
+let netPrice = 0;
 
 document.getElementById("my-km").innerHTML = km;
 document.getElementById("my-age").innerHTML = age;
